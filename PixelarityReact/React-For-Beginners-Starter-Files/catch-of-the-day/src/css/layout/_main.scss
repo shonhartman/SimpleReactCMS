@@ -1,13 +1,7 @@
-///
-/// Cascade by Pixelarity
-/// pixelarity.com | hello@pixelarity.com
-/// License: pixelarity.com/license
-///
-
 /* Main */
 
 	#main {
-		padding-top: 9rem;
+		// padding-top: 9rem;
 
 		@include breakpoint('<=medium') {
 			padding-top: 6.5rem;

@@ -3073,7 +3073,7 @@ table.alt tbody tr td {
   #header.alt {
     background-color: transparent;
     box-shadow: none;
-    color: black; }
+    color: #fff; }
   @media screen and (max-width: 736px) {
     #header {
       height: 2.75rem;
@@ -3398,14 +3398,13 @@ table.alt tbody tr td {
     opacity: 0; }
 
 /* Main */
-#main {
-  padding-top: 9rem; }
-  @media screen and (max-width: 980px) {
-    #main {
-      padding-top: 6.5rem; } }
-  @media screen and (max-width: 736px) {
-    #main {
-      padding-top: 5rem; } }
+@media screen and (max-width: 980px) {
+  #main {
+    padding-top: 6.5rem; } }
+
+@media screen and (max-width: 736px) {
+  #main {
+    padding-top: 5rem; } }
 
 /* Footer */
 #footer {
